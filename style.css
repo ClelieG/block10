@@ -1,0 +1,118 @@
+body{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    border: 2px solid rgb(2, 132, 150);
+    height: 15vh;;
+    width: 30%;
+    background-color:rgb(2, 132, 150);
+    margin: 0 auto;
+}
+
+section{
+  display:flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+}
+
+.middle{
+    height:650px;
+    width: 95vw;
+    position: relative;
+}
+
+.circle{
+    border-radius:50%;
+    position: absolute;
+}
+
+.small{
+    height: 40px;
+    width:40px;
+}
+
+.large{
+    height: 100px;
+    width:100px;
+}
+
+.pink{
+    background-color: rgb(201, 53, 78);
+}
+
+.yellow{
+    background-color: rgb(240, 240, 83);
+}
+
+#circle1 {
+    top:2%;
+    left: 5%;
+}
+
+#circle2 {
+    bottom: 0;
+    left: 7%;
+}
+
+#circle3{
+    top: 10%;
+    left: 40%;
+}
+
+#circle4{
+    bottom: -35%;
+    left: 15%;
+    z-index: 1;
+}
+
+#circle5{
+    bottom: -3rem;
+    left: calc(33% - 3rem);
+    z-index: 1;
+}
+
+#circle6 {
+    top: 15%;
+    left: 20%;
+}
+
+.triangle1{
+    height: 0;
+    width: 0;
+
+    border-left: 11rem solid transparent;
+    border-right: 11rem solid transparent;
+    border-bottom: 25rem solid green;
+
+    bottom: 0;
+    right:11rem;
+    position: absolute;
+}
+
+.triangle2{
+    height:0;
+    width:0;
+    
+    border-left: 9rem solid transparent;
+    border-right: 9rem solid transparent;
+    border-bottom: 20rem solid rgb(207, 207, 70);
+
+    bottom: 0;
+    right:0;
+    position: absolute
+}
+
+.bottom{
+    height:20px;
+    margin-top: 15px;
+    background-color: rgb(13, 196, 13);
+    border-color: rgb(14, 189, 14);
+    width: 96%
+}
